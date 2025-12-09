@@ -1,4 +1,4 @@
-use crate::aoc_utils::Matrix;
+use crate::utils::matrix_utils::Matrix;
 use itertools::Itertools;
 use std::collections::{HashMap, HashSet};
 use std::fs;

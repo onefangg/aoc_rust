@@ -47,7 +47,7 @@ mod day22_tests {
     }
     #[test]
     pub fn test_with_actual_data() {
-        let read_input = fs::read_to_string("./inputs/day22.txt")
+        let read_input = fs::read_to_string("../../inputs/day22.txt")
             .unwrap()
             .lines()
             .map(|x| x.parse::<i64>().unwrap())
